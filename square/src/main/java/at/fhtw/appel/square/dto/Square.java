@@ -6,7 +6,7 @@ public class Square {
     public int getSquare() { return square; }  //get Message
 
     public void setSquare(int squ) {    //set Message
-        square = squ;
+        square = squ*squ;
     }
    //reset Message
 }
